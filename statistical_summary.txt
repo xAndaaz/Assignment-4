@@ -1,0 +1,16 @@
+Summary Statistics:
+
+              age        fare  family_size
+count  714.000000  891.000000   891.000000
+mean    29.699118   32.204208     1.904602
+std     14.526497   49.693429     1.613459
+min      0.420000    0.000000     1.000000
+25%     20.125000    7.910400     1.000000
+50%     28.000000   14.454200     1.000000
+75%     38.000000   31.000000     2.000000
+max     80.000000  512.329200    11.000000
+
+T-test for Age (Survivors vs Non-Survivors):
+T-statistic: -2.0460
+P-value: 0.0412
+Note: P-value < 0.05 suggests significant age difference.

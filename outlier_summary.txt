@@ -1,0 +1,12 @@
+Age Outliers:
+Count: 11
+Lower Bound: -6.69, Upper Bound: 64.81
+
+Fare Outliers:
+Count: 116
+Lower Bound: -26.72, Upper Bound: 65.63
+
+Family Size Outliers:
+Count: 91
+Lower Bound: -0.50, Upper Bound: 3.50
+
