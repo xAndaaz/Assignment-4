@@ -23,15 +23,13 @@ This project conducts an in-depth Exploratory Data Analysis (EDA) on the Titanic
 ## Usage
 1. Run the script or notebook:
    ```bash
-   python titanic_eda.py
+   python titanic.py
    ```
-   or open `titanic_eda.ipynb` in Jupyter.
 2. Outputs include high-quality PNGs and text files.
 3. View visualizations in the repository.
 
 ## Files
-- `titanic_eda.py`: Script for EDA and visualizations.
-- `titanic_eda.ipynb`: Notebook with inline results.
+- `titanic.py`: Script for EDA and visualizations.
 - PNGs:
   - `missing_values_heatmap.png`: Missing data patterns.
   - `histograms.png`: Age, fare, family size distributions.
@@ -52,9 +50,3 @@ This project conducts an in-depth Exploratory Data Analysis (EDA) on the Titanic
 - **Survival Patterns (survival_bar_plots.png, stacked_bar_plot.png)**: Females survived at 70%, Class 1 at 60%, with 95% Class 1 female survival vs. 15% Class 3 male, per stacked plot.
 - **Pairwise Insights (pairplot.png)**: Lower age and fare (<40, <50) correlate with survival, seen in KDE overlaps.
 - **Stats (statistical_summary.txt)**: Median age 28, mean fare 32.20, t-test p=0.03 shows younger survivors (~28) vs. non-survivors (~31).
-
-## Notes
-- Dataset loaded via `sns.load_dataset('titanic')`, no CSV needed.
-- Requires `jupyter` for notebook (`pip install jupyter`).
-- PNGs are 300 DPI for clarity.
-- Outlier thresholds (e.g., 64.81 for age) are global; class-specific outliers (55+) reflect local distributions.
